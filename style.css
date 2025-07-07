@@ -80,7 +80,7 @@ p {
 
 input[type="email"] {
     padding: 15px 20px;
-    width: 300px;
+    width: 350px;
     font-size: 16px;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.056);
@@ -91,6 +91,8 @@ input[type="email"] {
     border: 1px solid rgba(255, 255, 255, 0.2);
     margin: 0 auto;
     display: block;
+    position: relative;
+    right: 10%;
 }
 
 input[type="email"]::placeholder {
@@ -106,12 +108,14 @@ input[type="email"]:focus {
     background-color: red;
     color: white;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.5rem;
     font-weight: bold;
+    font-size: 1.4rem;
     cursor: pointer;
     border-radius: 4px;
     margin: 0 auto;
-    display: block;
-    justify-content: center;
-
+    justify-items: center;
+    position: relative;
+    left: 52%;
+    bottom: 69px;
 }
